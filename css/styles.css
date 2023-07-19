@@ -65,8 +65,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.button-text:hover,
-.button-text:focus {
+.button-main:hover,
+.button-main:focus {
   background-color: var(--ocean);
   color: var(--white);
 }
