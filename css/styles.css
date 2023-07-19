@@ -17,8 +17,8 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 2%;
+
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -78,9 +78,8 @@ body {
 }
 
 .footer-text {
-  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.32px;
+
   color: var(--cloud);
 }
 .header-link {
@@ -115,20 +114,13 @@ body {
   line-height: 1.17;
   font-weight: 800;
 }
-.link:hover,
-.link:focus {
-  text-decoration: underline;
-}
+
 .card {
   background: var(--white);
 }
 .link:hover,
 .link:focus {
-  text-decoration: underline;
   color: var(--ocean);
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0.48px;
 }
 .card-team {
   background-color: #ffffff;
@@ -141,14 +133,9 @@ body {
 }
 .mail-phone {
   color: var(--adress);
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .paragraf {
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  line-height: 1.5;
   color: var(--adress);
 }
 .button-list {
